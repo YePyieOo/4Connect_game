@@ -1,0 +1,47 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: whitesmoke;
+}
+
+.board {
+   display: flex;
+   flex-direction: column;
+   background-color: teal;
+   border-radius: 20px;
+}
+
+.row {
+   display: flex;
+   margin: 5px;
+}
+
+.circle {
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background-color: skyblue;
+   margin: 10px;
+}
+
+#turn {
+   color: blue;
+   font-size: 30px;
+   font-weight: bold;
+   margin: 20px;
+}
+
+#winnner {
+   margin: 20px;
+   font-size: 30px;
+   font-weight: bold;
+   background-color: blueviolet;
+}
